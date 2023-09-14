@@ -42,7 +42,31 @@
         "documentation": {}
     },
     {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
         "isExtraImport": true,
@@ -284,6 +308,14 @@
         "documentation": {}
     },
     {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
         "label": "get_user_model",
         "importPath": "django.contrib.auth",
         "description": "django.contrib.auth",
@@ -293,6 +325,30 @@
     },
     {
         "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
         "importPath": "django.contrib.auth",
         "description": "django.contrib.auth",
         "isExtraImport": true,
@@ -332,6 +388,14 @@
         "documentation": {}
     },
     {
+        "label": "gettext_lazy",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "core",
         "description": "core",
@@ -345,6 +409,86 @@
         "description": "django.apps",
         "isExtraImport": true,
         "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "APIClient",
+        "importPath": "rest_framework.test",
+        "description": "rest_framework.test",
+        "isExtraImport": true,
+        "detail": "rest_framework.test",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "user",
+        "description": "user",
+        "isExtraImport": true,
+        "detail": "user",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "importPath": "user.serializers",
+        "description": "user.serializers",
+        "isExtraImport": true,
+        "detail": "user.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "AuthTokenSerializer",
+        "importPath": "user.serializers",
+        "description": "user.serializers",
+        "isExtraImport": true,
+        "detail": "user.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ObtainAuthToken",
+        "importPath": "rest_framework.authtoken.views",
+        "description": "rest_framework.authtoken.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.authtoken.views",
+        "documentation": {}
+    },
+    {
+        "label": "api_settings",
+        "importPath": "rest_framework.settings",
+        "description": "rest_framework.settings",
+        "isExtraImport": true,
+        "detail": "rest_framework.settings",
         "documentation": {}
     },
     {
@@ -388,7 +532,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'core'",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -397,7 +541,7 @@
         "kind": 5,
         "importPath": "app.app.settings",
         "description": "app.app.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'core'\n]\nMIDDLEWARE = [",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'rest_framework.authtoken',\n    'core',",
         "detail": "app.app.settings",
         "documentation": {}
     },
@@ -523,7 +667,7 @@
         "kind": 5,
         "importPath": "app.app.urls",
         "description": "app.app.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/user/', include('user.urls'))\n]",
         "detail": "app.app.urls",
         "documentation": {}
     },
@@ -678,6 +822,114 @@
         "description": "app.core.models",
         "peekOfCode": "class User(AbstractBaseUser, PermissionManager):\n    \"\"\"Custom user model that supports using email instead of username\"\"\"\n    def has_perm(self, perm, obj=None):\n        \"\"\"Does the user have a specific permission\"\"\"\n        return self.is_superuser\n    def has_module_perms(self, app_label):\n        \"\"\"Does the user have a specific permission\"\"\"\n        return self.is_superuser\n    username = models.CharField(max_length=255)\n    email = models.EmailField(max_length=255, unique=True)",
         "detail": "app.core.models",
+        "documentation": {}
+    },
+    {
+        "label": "PublicUserApiTests",
+        "kind": 6,
+        "importPath": "app.user.tests.test_user_api",
+        "description": "app.user.tests.test_user_api",
+        "peekOfCode": "class PublicUserApiTests(TestCase):\n    \"\"\"Test the users API (public)\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_create_valid_user_success(self):\n        \"\"\"Test creating user with valid payload is successful\"\"\"\n        res = self.client.post(CREATE_USER_URL, user_payload)\n        self.assertEqual(res.status_code, status.HTTP_201_CREATED)\n        user = get_user_model().objects.get(**res.data)\n        self.assertTrue(user.check_password(user_payload['password']))",
+        "detail": "app.user.tests.test_user_api",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "app.user.tests.test_user_api",
+        "description": "app.user.tests.test_user_api",
+        "peekOfCode": "def create_user(**params):\n    \"\"\"Helper function to create new user\"\"\"\n    return get_user_model().objects.create_user(**params)\nclass PublicUserApiTests(TestCase):\n    \"\"\"Test the users API (public)\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_create_valid_user_success(self):\n        \"\"\"Test creating user with valid payload is successful\"\"\"\n        res = self.client.post(CREATE_USER_URL, user_payload)",
+        "detail": "app.user.tests.test_user_api",
+        "documentation": {}
+    },
+    {
+        "label": "CREATE_USER_URL",
+        "kind": 5,
+        "importPath": "app.user.tests.test_user_api",
+        "description": "app.user.tests.test_user_api",
+        "peekOfCode": "CREATE_USER_URL = reverse('user:create')\nTOKEN_URL = reverse('user:token')\nuser_payload = {\n    'email': 'test@gmail.com',\n    'password': '12346',\n    'username': 'test'\n}\ndef create_user(**params):\n    \"\"\"Helper function to create new user\"\"\"\n    return get_user_model().objects.create_user(**params)",
+        "detail": "app.user.tests.test_user_api",
+        "documentation": {}
+    },
+    {
+        "label": "TOKEN_URL",
+        "kind": 5,
+        "importPath": "app.user.tests.test_user_api",
+        "description": "app.user.tests.test_user_api",
+        "peekOfCode": "TOKEN_URL = reverse('user:token')\nuser_payload = {\n    'email': 'test@gmail.com',\n    'password': '12346',\n    'username': 'test'\n}\ndef create_user(**params):\n    \"\"\"Helper function to create new user\"\"\"\n    return get_user_model().objects.create_user(**params)\nclass PublicUserApiTests(TestCase):",
+        "detail": "app.user.tests.test_user_api",
+        "documentation": {}
+    },
+    {
+        "label": "user_payload",
+        "kind": 5,
+        "importPath": "app.user.tests.test_user_api",
+        "description": "app.user.tests.test_user_api",
+        "peekOfCode": "user_payload = {\n    'email': 'test@gmail.com',\n    'password': '12346',\n    'username': 'test'\n}\ndef create_user(**params):\n    \"\"\"Helper function to create new user\"\"\"\n    return get_user_model().objects.create_user(**params)\nclass PublicUserApiTests(TestCase):\n    \"\"\"Test the users API (public)\"\"\"",
+        "detail": "app.user.tests.test_user_api",
+        "documentation": {}
+    },
+    {
+        "label": "UserConfig",
+        "kind": 6,
+        "importPath": "app.user.apps",
+        "description": "app.user.apps",
+        "peekOfCode": "class UserConfig(AppConfig):\n    name = 'user'",
+        "detail": "app.user.apps",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "kind": 6,
+        "importPath": "app.user.serializers",
+        "description": "app.user.serializers",
+        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    \"\"\"Serializer for the users object\"\"\"\n    class Meta:\n        \"\"\"Meta class\"\"\"\n        model = get_user_model()\n        fields = ('email', 'password', 'username')\n        extra_kwargs = {'password': {'write_only': True, 'min_length': 5}}\n    def create(self, validated_data):\n        \"\"\"Create a new with encrypted password\"\"\"\n        return get_user_model().objects.create_user(**validated_data)",
+        "detail": "app.user.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "AuthTokenSerializer",
+        "kind": 6,
+        "importPath": "app.user.serializers",
+        "description": "app.user.serializers",
+        "peekOfCode": "class AuthTokenSerializer(serializers.Serializer):\n    \"\"\"Serializer for the user authentication object\"\"\"\n    email = serializers.CharField()\n    password = serializers.CharField(\n        style={'input_type': 'password', },\n        trim_whitespace=False\n    )\n    def validate(self, attrs):\n        \"\"\"Validate and auth the user\"\"\"\n        email = attrs.get('email')",
+        "detail": "app.user.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "app.user.urls",
+        "description": "app.user.urls",
+        "peekOfCode": "app_name = 'user'\nurlpatterns = [\n    path('create/', views.CreateUserView.as_view(), name='create'),\n    path('token/', views.CreateTokenView.as_view(), name='token'),\n]",
+        "detail": "app.user.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "app.user.urls",
+        "description": "app.user.urls",
+        "peekOfCode": "urlpatterns = [\n    path('create/', views.CreateUserView.as_view(), name='create'),\n    path('token/', views.CreateTokenView.as_view(), name='token'),\n]",
+        "detail": "app.user.urls",
+        "documentation": {}
+    },
+    {
+        "label": "CreateUserView",
+        "kind": 6,
+        "importPath": "app.user.views",
+        "description": "app.user.views",
+        "peekOfCode": "class CreateUserView(generics.CreateAPIView):\n    \"\"\"Create a new user in the system\"\"\"\n    serializer_class = UserSerializer\nclass CreateTokenView(ObtainAuthToken):\n    \"\"\"Create a new auth token for user\"\"\"\n    serializer_class = AuthTokenSerializer\n    renderer_classes = api_settings.DEFAULT_RENDERER_CLASSES",
+        "detail": "app.user.views",
+        "documentation": {}
+    },
+    {
+        "label": "CreateTokenView",
+        "kind": 6,
+        "importPath": "app.user.views",
+        "description": "app.user.views",
+        "peekOfCode": "class CreateTokenView(ObtainAuthToken):\n    \"\"\"Create a new auth token for user\"\"\"\n    serializer_class = AuthTokenSerializer\n    renderer_classes = api_settings.DEFAULT_RENDERER_CLASSES",
+        "detail": "app.user.views",
         "documentation": {}
     }
 ]
