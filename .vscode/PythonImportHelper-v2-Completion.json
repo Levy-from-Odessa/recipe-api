@@ -74,6 +74,30 @@
         "documentation": {}
     },
     {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -211,6 +235,22 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -276,6 +316,31 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -313,6 +378,22 @@
         "description": "django.test",
         "isExtraImport": true,
         "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
         "documentation": {}
     },
     {
@@ -372,6 +453,22 @@
         "documentation": {}
     },
     {
+        "label": "models",
+        "importPath": "core",
+        "description": "core",
+        "isExtraImport": true,
+        "detail": "core",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "core",
+        "description": "core",
+        "isExtraImport": true,
+        "detail": "core",
+        "documentation": {}
+    },
+    {
         "label": "UserAdmin",
         "importPath": "django.contrib.auth.admin",
         "description": "django.contrib.auth.admin",
@@ -396,14 +493,6 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "core",
-        "description": "core",
-        "isExtraImport": true,
-        "detail": "core",
-        "documentation": {}
-    },
-    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
@@ -420,11 +509,59 @@
         "documentation": {}
     },
     {
-        "label": "APIClient",
-        "importPath": "rest_framework.test",
-        "description": "rest_framework.test",
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
         "isExtraImport": true,
-        "detail": "rest_framework.test",
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "mixins",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "authentication",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
         "documentation": {}
     },
     {
@@ -449,6 +586,102 @@
         "description": "rest_framework",
         "isExtraImport": true,
         "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "authentication",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "APIClient",
+        "importPath": "rest_framework.test",
+        "description": "rest_framework.test",
+        "isExtraImport": true,
+        "detail": "rest_framework.test",
+        "documentation": {}
+    },
+    {
+        "label": "APIClient",
+        "importPath": "rest_framework.test",
+        "description": "rest_framework.test",
+        "isExtraImport": true,
+        "detail": "rest_framework.test",
+        "documentation": {}
+    },
+    {
+        "label": "Tag",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Tag",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Tag",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "TagSerializer",
+        "importPath": "recipe.serializers",
+        "description": "recipe.serializers",
+        "isExtraImport": true,
+        "detail": "recipe.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "TagSerializer",
+        "importPath": "recipe.serializers",
+        "description": "recipe.serializers",
+        "isExtraImport": true,
+        "detail": "recipe.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "recipe",
+        "description": "recipe",
+        "isExtraImport": true,
+        "detail": "recipe",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
         "documentation": {}
     },
     {
@@ -667,7 +900,7 @@
         "kind": 5,
         "importPath": "app.app.urls",
         "description": "app.app.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/user/', include('user.urls'))\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/user/', include('user.urls')),\n    path('api/recipe/', include('recipe.urls'))\n]",
         "detail": "app.app.urls",
         "documentation": {}
     },
@@ -762,6 +995,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "app.core.migrations.0009_tag",
+        "description": "app.core.migrations.0009_tag",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0008_user_is_superuser'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Tag',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=255)),",
+        "detail": "app.core.migrations.0009_tag",
+        "documentation": {}
+    },
+    {
         "label": "AdminSiteTests",
         "kind": 6,
         "importPath": "app.core.tests.test_admin",
@@ -785,6 +1027,15 @@
         "importPath": "app.core.tests.test_models",
         "description": "app.core.tests.test_models",
         "peekOfCode": "class ModelTests(TestCase):\n    def test_create_user_with_email_successful(self):\n        \"\"\"Test creating a new user with an email is successful\"\"\"\n        email = 'example.email@example.comm'\n        password = 'testPass123'\n        user = get_user_model().objects.create_user(\n            email=email,\n            password=password,\n            username=\"test\",\n        )",
+        "detail": "app.core.tests.test_models",
+        "documentation": {}
+    },
+    {
+        "label": "sample_user",
+        "kind": 2,
+        "importPath": "app.core.tests.test_models",
+        "description": "app.core.tests.test_models",
+        "peekOfCode": "def sample_user(email=\"test@gmail.com\", password=\"testpass\"):\n    \"\"\"Create a sample user\"\"\"\n    return get_user_model().objects.create_user(email, password)\nclass ModelTests(TestCase):\n    def test_create_user_with_email_successful(self):\n        \"\"\"Test creating a new user with an email is successful\"\"\"\n        email = 'example.email@example.comm'\n        password = 'testPass123'\n        user = get_user_model().objects.create_user(\n            email=email,",
         "detail": "app.core.tests.test_models",
         "documentation": {}
     },
@@ -825,11 +1076,110 @@
         "documentation": {}
     },
     {
+        "label": "Tag",
+        "kind": 6,
+        "importPath": "app.core.models",
+        "description": "app.core.models",
+        "peekOfCode": "class Tag(models.Model):\n    \"\"\"Tag to be used in the recipe\"\"\"\n    name = models.CharField(max_length=255)\n    user = models.ForeignKey(\n        settings.AUTH_USER_MODEL,\n        on_delete=models.CASCADE\n    )\n    def __str__(self):\n        return self.name",
+        "detail": "app.core.models",
+        "documentation": {}
+    },
+    {
+        "label": "PublicTagsApiTests",
+        "kind": 6,
+        "importPath": "app.recipe.tests.test_recipe_api",
+        "description": "app.recipe.tests.test_recipe_api",
+        "peekOfCode": "class PublicTagsApiTests(TestCase):\n    \"\"\"Test the publicly available tags API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_login_required(self):\n        \"\"\"Test that login is required for tags\"\"\"\n        res = self.client.get(TAGS_URL)\n        self.assertEqual(res.status_code, status.HTTP_401_UNAUTHORIZED)\nclass PrivateTagsApiTests(TestCase):\n    \"\"\"Test the authorized user tags API\"\"\"",
+        "detail": "app.recipe.tests.test_recipe_api",
+        "documentation": {}
+    },
+    {
+        "label": "PrivateTagsApiTests",
+        "kind": 6,
+        "importPath": "app.recipe.tests.test_recipe_api",
+        "description": "app.recipe.tests.test_recipe_api",
+        "peekOfCode": "class PrivateTagsApiTests(TestCase):\n    \"\"\"Test the authorized user tags API\"\"\"\n    def setUp(self):\n        self.user = get_user_model().objects.create_user(\n            \"test@gmail.com\",\n            \"testtest\"\n        )\n        self.client = APIClient()\n        self.client.force_authenticate(self.user)\n    def test_retrive_tags(self):",
+        "detail": "app.recipe.tests.test_recipe_api",
+        "documentation": {}
+    },
+    {
+        "label": "TAGS_URL",
+        "kind": 5,
+        "importPath": "app.recipe.tests.test_recipe_api",
+        "description": "app.recipe.tests.test_recipe_api",
+        "peekOfCode": "TAGS_URL = reverse('recipe:tag-list')\nclass PublicTagsApiTests(TestCase):\n    \"\"\"Test the publicly available tags API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_login_required(self):\n        \"\"\"Test that login is required for tags\"\"\"\n        res = self.client.get(TAGS_URL)\n        self.assertEqual(res.status_code, status.HTTP_401_UNAUTHORIZED)\nclass PrivateTagsApiTests(TestCase):",
+        "detail": "app.recipe.tests.test_recipe_api",
+        "documentation": {}
+    },
+    {
+        "label": "RecipeConfig",
+        "kind": 6,
+        "importPath": "app.recipe.apps",
+        "description": "app.recipe.apps",
+        "peekOfCode": "class RecipeConfig(AppConfig):\n    name = 'recipe'",
+        "detail": "app.recipe.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TagSerializer",
+        "kind": 6,
+        "importPath": "app.recipe.serializers",
+        "description": "app.recipe.serializers",
+        "peekOfCode": "class TagSerializer(serializers.ModelSerializer):\n    \"\"\"Model definition for TagSerializer.\"\"\"\n    class Meta:\n        \"\"\"Meta definition for TagSerializer.\"\"\"\n        model = Tag\n        fields = ('id', 'name')\n        read_only_fields = ('id',)",
+        "detail": "app.recipe.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.recipe.urls",
+        "description": "app.recipe.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register('tags', views.TagViewSet)\napp_name = 'recipe'\nurlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "app.recipe.urls",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "app.recipe.urls",
+        "description": "app.recipe.urls",
+        "peekOfCode": "app_name = 'recipe'\nurlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "app.recipe.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "app.recipe.urls",
+        "description": "app.recipe.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "app.recipe.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TagViewSet",
+        "kind": 6,
+        "importPath": "app.recipe.views",
+        "description": "app.recipe.views",
+        "peekOfCode": "class TagViewSet(viewsets.GenericViewSet, mixins.ListModelMixin, mixins.CreateModelMixin):\n    \"\"\"Manage tags in the database\"\"\"\n    authentication_classes = (authentication.TokenAuthentication,)\n    permission_classes = (permissions.IsAuthenticated,)\n    queryset = Tag.objects.all()\n    serializer_class = TagSerializer\n    def get_queryset(self):\n        \"\"\"Return objects for the current authenticated user only\"\"\"\n        user = self.request.user\n        # if user.is_anonymous:",
+        "detail": "app.recipe.views",
+        "documentation": {}
+    },
+    {
         "label": "PublicUserApiTests",
         "kind": 6,
         "importPath": "app.user.tests.test_user_api",
         "description": "app.user.tests.test_user_api",
         "peekOfCode": "class PublicUserApiTests(TestCase):\n    \"\"\"Test the users API (public)\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_create_valid_user_success(self):\n        \"\"\"Test creating user with valid payload is successful\"\"\"\n        res = self.client.post(CREATE_USER_URL, user_payload)\n        self.assertEqual(res.status_code, status.HTTP_201_CREATED)\n        user = get_user_model().objects.get(**res.data)\n        self.assertTrue(user.check_password(user_payload['password']))",
+        "detail": "app.user.tests.test_user_api",
+        "documentation": {}
+    },
+    {
+        "label": "PrivateUserApiTest",
+        "kind": 6,
+        "importPath": "app.user.tests.test_user_api",
+        "description": "app.user.tests.test_user_api",
+        "peekOfCode": "class PrivateUserApiTest(TestCase):\n    \"\"\"Test API requests that require authentication\"\"\"\n    def setUp(self):\n        self.user = create_user(**user_payload)\n        self.client = APIClient()\n        self.client.force_authenticate(user=self.user)\n    def test_retrieve_profile_success(self):\n        \"\"\"Test that the user can retrieve profile successfully\"\"\"\n        res = self.client.get(ME_URL)\n        self.assertEqual(res.status_code, status.HTTP_200_OK)",
         "detail": "app.user.tests.test_user_api",
         "documentation": {}
     },
@@ -847,7 +1197,7 @@
         "kind": 5,
         "importPath": "app.user.tests.test_user_api",
         "description": "app.user.tests.test_user_api",
-        "peekOfCode": "CREATE_USER_URL = reverse('user:create')\nTOKEN_URL = reverse('user:token')\nuser_payload = {\n    'email': 'test@gmail.com',\n    'password': '12346',\n    'username': 'test'\n}\ndef create_user(**params):\n    \"\"\"Helper function to create new user\"\"\"\n    return get_user_model().objects.create_user(**params)",
+        "peekOfCode": "CREATE_USER_URL = reverse('user:create')\nTOKEN_URL = reverse('user:token')\nME_URL = reverse('user:me')\nuser_payload = {\n    'email': 'test@gmail.com',\n    'password': '12346',\n    'username': 'test'\n}\ndef create_user(**params):\n    \"\"\"Helper function to create new user\"\"\"",
         "detail": "app.user.tests.test_user_api",
         "documentation": {}
     },
@@ -856,7 +1206,16 @@
         "kind": 5,
         "importPath": "app.user.tests.test_user_api",
         "description": "app.user.tests.test_user_api",
-        "peekOfCode": "TOKEN_URL = reverse('user:token')\nuser_payload = {\n    'email': 'test@gmail.com',\n    'password': '12346',\n    'username': 'test'\n}\ndef create_user(**params):\n    \"\"\"Helper function to create new user\"\"\"\n    return get_user_model().objects.create_user(**params)\nclass PublicUserApiTests(TestCase):",
+        "peekOfCode": "TOKEN_URL = reverse('user:token')\nME_URL = reverse('user:me')\nuser_payload = {\n    'email': 'test@gmail.com',\n    'password': '12346',\n    'username': 'test'\n}\ndef create_user(**params):\n    \"\"\"Helper function to create new user\"\"\"\n    return get_user_model().objects.create_user(**params)",
+        "detail": "app.user.tests.test_user_api",
+        "documentation": {}
+    },
+    {
+        "label": "ME_URL",
+        "kind": 5,
+        "importPath": "app.user.tests.test_user_api",
+        "description": "app.user.tests.test_user_api",
+        "peekOfCode": "ME_URL = reverse('user:me')\nuser_payload = {\n    'email': 'test@gmail.com',\n    'password': '12346',\n    'username': 'test'\n}\ndef create_user(**params):\n    \"\"\"Helper function to create new user\"\"\"\n    return get_user_model().objects.create_user(**params)\nclass PublicUserApiTests(TestCase):",
         "detail": "app.user.tests.test_user_api",
         "documentation": {}
     },
@@ -901,7 +1260,7 @@
         "kind": 5,
         "importPath": "app.user.urls",
         "description": "app.user.urls",
-        "peekOfCode": "app_name = 'user'\nurlpatterns = [\n    path('create/', views.CreateUserView.as_view(), name='create'),\n    path('token/', views.CreateTokenView.as_view(), name='token'),\n]",
+        "peekOfCode": "app_name = 'user'\nurlpatterns = [\n    path('create/', views.CreateUserView.as_view(), name='create'),\n    path('token/', views.CreateTokenView.as_view(), name='token'),\n    path('me/', views.ManageUserView.as_view(), name='me'),\n]",
         "detail": "app.user.urls",
         "documentation": {}
     },
@@ -910,7 +1269,7 @@
         "kind": 5,
         "importPath": "app.user.urls",
         "description": "app.user.urls",
-        "peekOfCode": "urlpatterns = [\n    path('create/', views.CreateUserView.as_view(), name='create'),\n    path('token/', views.CreateTokenView.as_view(), name='token'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('create/', views.CreateUserView.as_view(), name='create'),\n    path('token/', views.CreateTokenView.as_view(), name='token'),\n    path('me/', views.ManageUserView.as_view(), name='me'),\n]",
         "detail": "app.user.urls",
         "documentation": {}
     },
@@ -919,7 +1278,7 @@
         "kind": 6,
         "importPath": "app.user.views",
         "description": "app.user.views",
-        "peekOfCode": "class CreateUserView(generics.CreateAPIView):\n    \"\"\"Create a new user in the system\"\"\"\n    serializer_class = UserSerializer\nclass CreateTokenView(ObtainAuthToken):\n    \"\"\"Create a new auth token for user\"\"\"\n    serializer_class = AuthTokenSerializer\n    renderer_classes = api_settings.DEFAULT_RENDERER_CLASSES",
+        "peekOfCode": "class CreateUserView(generics.CreateAPIView):\n    \"\"\"Create a new user in the system\"\"\"\n    serializer_class = UserSerializer\nclass CreateTokenView(ObtainAuthToken):\n    \"\"\"Create a new auth token for user\"\"\"\n    serializer_class = AuthTokenSerializer\n    renderer_classes = api_settings.DEFAULT_RENDERER_CLASSES\nclass ManageUserView(generics.RetrieveUpdateAPIView):\n    \"\"\"Manage the authed user\"\"\"\n    serializer_class = UserSerializer",
         "detail": "app.user.views",
         "documentation": {}
     },
@@ -928,7 +1287,16 @@
         "kind": 6,
         "importPath": "app.user.views",
         "description": "app.user.views",
-        "peekOfCode": "class CreateTokenView(ObtainAuthToken):\n    \"\"\"Create a new auth token for user\"\"\"\n    serializer_class = AuthTokenSerializer\n    renderer_classes = api_settings.DEFAULT_RENDERER_CLASSES",
+        "peekOfCode": "class CreateTokenView(ObtainAuthToken):\n    \"\"\"Create a new auth token for user\"\"\"\n    serializer_class = AuthTokenSerializer\n    renderer_classes = api_settings.DEFAULT_RENDERER_CLASSES\nclass ManageUserView(generics.RetrieveUpdateAPIView):\n    \"\"\"Manage the authed user\"\"\"\n    serializer_class = UserSerializer\n    authentication_classes = (authentication.TokenAuthentication,)\n    permission_classes = (permissions.IsAuthenticated,)\n    def get_object(self):",
+        "detail": "app.user.views",
+        "documentation": {}
+    },
+    {
+        "label": "ManageUserView",
+        "kind": 6,
+        "importPath": "app.user.views",
+        "description": "app.user.views",
+        "peekOfCode": "class ManageUserView(generics.RetrieveUpdateAPIView):\n    \"\"\"Manage the authed user\"\"\"\n    serializer_class = UserSerializer\n    authentication_classes = (authentication.TokenAuthentication,)\n    permission_classes = (permissions.IsAuthenticated,)\n    def get_object(self):\n        \"\"\"Retrieve and return authed user\"\"\"\n        return self.request.user",
         "detail": "app.user.views",
         "documentation": {}
     }
