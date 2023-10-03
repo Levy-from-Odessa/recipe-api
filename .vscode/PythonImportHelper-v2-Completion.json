@@ -66,6 +66,14 @@
         "documentation": {}
     },
     {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -251,6 +259,22 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -332,6 +356,14 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
         "label": "django.db.models.deletion",
         "kind": 6,
         "isExtraImport": true,
@@ -386,6 +418,22 @@
         "description": "django.test",
         "isExtraImport": true,
         "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
         "documentation": {}
     },
     {
@@ -525,6 +573,14 @@
         "documentation": {}
     },
     {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "serializers",
         "importPath": "rest_framework",
         "description": "rest_framework",
@@ -621,7 +677,15 @@
         "documentation": {}
     },
     {
-        "label": "Tag",
+        "label": "APIClient",
+        "importPath": "rest_framework.test",
+        "description": "rest_framework.test",
+        "isExtraImport": true,
+        "detail": "rest_framework.test",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
         "importPath": "core.models",
         "description": "core.models",
         "isExtraImport": true,
@@ -642,6 +706,38 @@
         "description": "core.models",
         "isExtraImport": true,
         "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Tag",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientSerializer",
+        "importPath": "recipe.serializers",
+        "description": "recipe.serializers",
+        "isExtraImport": true,
+        "detail": "recipe.serializers",
         "documentation": {}
     },
     {
@@ -654,6 +750,14 @@
     },
     {
         "label": "TagSerializer",
+        "importPath": "recipe.serializers",
+        "description": "recipe.serializers",
+        "isExtraImport": true,
+        "detail": "recipe.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientSerializer",
         "importPath": "recipe.serializers",
         "description": "recipe.serializers",
         "isExtraImport": true,
@@ -674,14 +778,6 @@
         "description": "recipe",
         "isExtraImport": true,
         "detail": "recipe",
-        "documentation": {}
-    },
-    {
-        "label": "HttpResponse",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
         "documentation": {}
     },
     {
@@ -1004,6 +1100,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "app.core.migrations.0010_ingredient",
+        "description": "app.core.migrations.0010_ingredient",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0009_tag'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Ingredient',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=255)),",
+        "detail": "app.core.migrations.0010_ingredient",
+        "documentation": {}
+    },
+    {
         "label": "AdminSiteTests",
         "kind": 6,
         "importPath": "app.core.tests.test_admin",
@@ -1080,35 +1185,71 @@
         "kind": 6,
         "importPath": "app.core.models",
         "description": "app.core.models",
-        "peekOfCode": "class Tag(models.Model):\n    \"\"\"Tag to be used in the recipe\"\"\"\n    name = models.CharField(max_length=255)\n    user = models.ForeignKey(\n        settings.AUTH_USER_MODEL,\n        on_delete=models.CASCADE\n    )\n    def __str__(self):\n        return self.name",
+        "peekOfCode": "class Tag(models.Model):\n    \"\"\"Tag to be used in the recipe\"\"\"\n    name = models.CharField(max_length=255)\n    user = models.ForeignKey(\n        settings.AUTH_USER_MODEL,\n        on_delete=models.CASCADE\n    )\n    def __str__(self):\n        return self.name\nclass Ingredient(models.Model):",
         "detail": "app.core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "kind": 6,
+        "importPath": "app.core.models",
+        "description": "app.core.models",
+        "peekOfCode": "class Ingredient(models.Model):\n    \"\"\"Ingredient to be used in the recipe\"\"\"\n    name = models.CharField(max_length=255)\n    user = models.ForeignKey(\n        settings.AUTH_USER_MODEL,\n        on_delete=models.CASCADE\n    )\n    def __str__(self):\n        return self.name",
+        "detail": "app.core.models",
+        "documentation": {}
+    },
+    {
+        "label": "PublicIngredientsApiTests",
+        "kind": 6,
+        "importPath": "app.recipe.tests.test_ingredients_api",
+        "description": "app.recipe.tests.test_ingredients_api",
+        "peekOfCode": "class PublicIngredientsApiTests(TestCase):\n    \"\"\"Test the publicly available ingredients API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_login_required(self):\n        \"\"\"Test that login is required for tags\"\"\"\n        res = self.client.get(INGREDIENTS_URL)\n        self.assertEqual(res.status_code, status.HTTP_401_UNAUTHORIZED)\nclass PrivateIngredientsApiTests(TestCase):\n    \"\"\"Test the authorized user ingredients API\"\"\"",
+        "detail": "app.recipe.tests.test_ingredients_api",
+        "documentation": {}
+    },
+    {
+        "label": "PrivateIngredientsApiTests",
+        "kind": 6,
+        "importPath": "app.recipe.tests.test_ingredients_api",
+        "description": "app.recipe.tests.test_ingredients_api",
+        "peekOfCode": "class PrivateIngredientsApiTests(TestCase):\n    \"\"\"Test the authorized user ingredients API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n        self.user = get_user_model().objects.create_user(\n            \"test@gmail.com\",\n            \"testtest\"\n        )\n        self.client.force_authenticate(self.user)\n    def test_retrieve_ingredients(self):",
+        "detail": "app.recipe.tests.test_ingredients_api",
+        "documentation": {}
+    },
+    {
+        "label": "INGREDIENTS_URL",
+        "kind": 5,
+        "importPath": "app.recipe.tests.test_ingredients_api",
+        "description": "app.recipe.tests.test_ingredients_api",
+        "peekOfCode": "INGREDIENTS_URL = reverse('recipe:ingredient-list')\nclass PublicIngredientsApiTests(TestCase):\n    \"\"\"Test the publicly available ingredients API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_login_required(self):\n        \"\"\"Test that login is required for tags\"\"\"\n        res = self.client.get(INGREDIENTS_URL)\n        self.assertEqual(res.status_code, status.HTTP_401_UNAUTHORIZED)\nclass PrivateIngredientsApiTests(TestCase):",
+        "detail": "app.recipe.tests.test_ingredients_api",
         "documentation": {}
     },
     {
         "label": "PublicTagsApiTests",
         "kind": 6,
-        "importPath": "app.recipe.tests.test_recipe_api",
-        "description": "app.recipe.tests.test_recipe_api",
+        "importPath": "app.recipe.tests.test_tags_api",
+        "description": "app.recipe.tests.test_tags_api",
         "peekOfCode": "class PublicTagsApiTests(TestCase):\n    \"\"\"Test the publicly available tags API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_login_required(self):\n        \"\"\"Test that login is required for tags\"\"\"\n        res = self.client.get(TAGS_URL)\n        self.assertEqual(res.status_code, status.HTTP_401_UNAUTHORIZED)\nclass PrivateTagsApiTests(TestCase):\n    \"\"\"Test the authorized user tags API\"\"\"",
-        "detail": "app.recipe.tests.test_recipe_api",
+        "detail": "app.recipe.tests.test_tags_api",
         "documentation": {}
     },
     {
         "label": "PrivateTagsApiTests",
         "kind": 6,
-        "importPath": "app.recipe.tests.test_recipe_api",
-        "description": "app.recipe.tests.test_recipe_api",
-        "peekOfCode": "class PrivateTagsApiTests(TestCase):\n    \"\"\"Test the authorized user tags API\"\"\"\n    def setUp(self):\n        self.user = get_user_model().objects.create_user(\n            \"test@gmail.com\",\n            \"testtest\"\n        )\n        self.client = APIClient()\n        self.client.force_authenticate(self.user)\n    def test_retrive_tags(self):",
-        "detail": "app.recipe.tests.test_recipe_api",
+        "importPath": "app.recipe.tests.test_tags_api",
+        "description": "app.recipe.tests.test_tags_api",
+        "peekOfCode": "class PrivateTagsApiTests(TestCase):\n    \"\"\"Test the authorized user tags API\"\"\"\n    def setUp(self):\n        self.user = get_user_model().objects.create_user(\n            \"test@gmail.com\",\n            \"testtest\"\n        )\n        self.client = APIClient()\n        self.client.force_authenticate(self.user)\n    def test_retrieve_tags(self):",
+        "detail": "app.recipe.tests.test_tags_api",
         "documentation": {}
     },
     {
         "label": "TAGS_URL",
         "kind": 5,
-        "importPath": "app.recipe.tests.test_recipe_api",
-        "description": "app.recipe.tests.test_recipe_api",
+        "importPath": "app.recipe.tests.test_tags_api",
+        "description": "app.recipe.tests.test_tags_api",
         "peekOfCode": "TAGS_URL = reverse('recipe:tag-list')\nclass PublicTagsApiTests(TestCase):\n    \"\"\"Test the publicly available tags API\"\"\"\n    def setUp(self):\n        self.client = APIClient()\n    def test_login_required(self):\n        \"\"\"Test that login is required for tags\"\"\"\n        res = self.client.get(TAGS_URL)\n        self.assertEqual(res.status_code, status.HTTP_401_UNAUTHORIZED)\nclass PrivateTagsApiTests(TestCase):",
-        "detail": "app.recipe.tests.test_recipe_api",
+        "detail": "app.recipe.tests.test_tags_api",
         "documentation": {}
     },
     {
@@ -1125,7 +1266,16 @@
         "kind": 6,
         "importPath": "app.recipe.serializers",
         "description": "app.recipe.serializers",
-        "peekOfCode": "class TagSerializer(serializers.ModelSerializer):\n    \"\"\"Model definition for TagSerializer.\"\"\"\n    class Meta:\n        \"\"\"Meta definition for TagSerializer.\"\"\"\n        model = Tag\n        fields = ('id', 'name')\n        read_only_fields = ('id',)",
+        "peekOfCode": "class TagSerializer(serializers.ModelSerializer):\n    \"\"\"Model definition for TagSerializer.\"\"\"\n    class Meta:\n        \"\"\"Meta definition for TagSerializer.\"\"\"\n        model = Tag\n        fields = ('id', 'name')\n        read_only_fields = ('id',)\nclass IngredientSerializer(serializers.ModelSerializer):\n    \"\"\"Model definition for IngredientSerializer.\"\"\"\n    class Meta:",
+        "detail": "app.recipe.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientSerializer",
+        "kind": 6,
+        "importPath": "app.recipe.serializers",
+        "description": "app.recipe.serializers",
+        "peekOfCode": "class IngredientSerializer(serializers.ModelSerializer):\n    \"\"\"Model definition for IngredientSerializer.\"\"\"\n    class Meta:\n        \"\"\"Meta definition for IngredientSerializer.\"\"\"\n        model = Ingredient\n        fields = ('id', 'name')\n        read_only_fields = ('id',)",
         "detail": "app.recipe.serializers",
         "documentation": {}
     },
@@ -1134,7 +1284,7 @@
         "kind": 5,
         "importPath": "app.recipe.urls",
         "description": "app.recipe.urls",
-        "peekOfCode": "router = DefaultRouter()\nrouter.register('tags', views.TagViewSet)\napp_name = 'recipe'\nurlpatterns = [\n    path('', include(router.urls)),\n]",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register('tags', views.TagViewSet)\nrouter.register('ingredients', views.IngredientViewSet)\napp_name = 'recipe'\nurlpatterns = [\n    path('', include(router.urls)),\n]",
         "detail": "app.recipe.urls",
         "documentation": {}
     },
@@ -1161,7 +1311,16 @@
         "kind": 6,
         "importPath": "app.recipe.views",
         "description": "app.recipe.views",
-        "peekOfCode": "class TagViewSet(viewsets.GenericViewSet, mixins.ListModelMixin, mixins.CreateModelMixin):\n    \"\"\"Manage tags in the database\"\"\"\n    authentication_classes = (authentication.TokenAuthentication,)\n    permission_classes = (permissions.IsAuthenticated,)\n    queryset = Tag.objects.all()\n    serializer_class = TagSerializer\n    def get_queryset(self):\n        \"\"\"Return objects for the current authenticated user only\"\"\"\n        user = self.request.user\n        # if user.is_anonymous:",
+        "peekOfCode": "class TagViewSet(viewsets.GenericViewSet, mixins.ListModelMixin, mixins.CreateModelMixin):\n    \"\"\"Manage tags in the database\"\"\"\n    authentication_classes = (authentication.TokenAuthentication,)\n    permission_classes = (permissions.IsAuthenticated,)\n    queryset = Tag.objects.all()\n    serializer_class = TagSerializer\n    def get_queryset(self):\n        \"\"\"Return objects for the current authenticated user only\"\"\"\n        user = self.request.user\n        return self.queryset.filter(user=user).order_by('-name')",
+        "detail": "app.recipe.views",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientViewSet",
+        "kind": 6,
+        "importPath": "app.recipe.views",
+        "description": "app.recipe.views",
+        "peekOfCode": "class IngredientViewSet(viewsets.GenericViewSet, mixins.ListModelMixin, mixins.CreateModelMixin):\n    \"\"\"Manage ingredients in the database\"\"\"\n    authentication_classes = (authentication.TokenAuthentication,)\n    permission_classes = (permissions.IsAuthenticated,)\n    queryset = Ingredient.objects.all()\n    serializer_class = IngredientSerializer\n    def get_queryset(self):\n        \"\"\"Return objects for the current authenticated user only\"\"\"\n        user = self.request.user\n        return self.queryset.filter(user=user).order_by('-name')",
         "detail": "app.recipe.views",
         "documentation": {}
     },
